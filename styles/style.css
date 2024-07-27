@@ -1,0 +1,495 @@
+@font-face {
+    font-family: butler;
+    src: url(../fonts/Butler_ExtraBold.otf);
+}
+
+
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/Apercu\ Pro\ Bold.otf);
+}
+@font-face {
+    font-family: kanit thin;
+    src: url(../fonts/Kanit-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.logo-1{
+    width: 165px;
+    margin-top: 10px;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    padding-top: 20px;
+    font-family: apercu;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 35px;
+    color: white;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.franchise-btn:hover{
+    background-color: paleturquoise;
+}
+.order-btn{
+    background-color: #ed1c24;
+    color: white;
+    border-radius: 35px;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+.arrow-icon{
+    background-color: white;
+    color: #ed1c24;
+    padding: 4px 8px;
+    border-radius: 50px;
+    margin-left:5px ;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background-color: lightslategray;
+}
+
+.slider-1{
+    width: 100%;
+}
+.children-3{
+    font-size: 3rem;
+}
+.flex-1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 90px ;
+   font-family: apercu;
+}
+.futurak{
+    font-weight: bold;
+    font-size: 6rem;
+    font-family: butler;
+}
+.web-text{
+    font-size: 1.8rem;
+    margin-top: 8px;
+}
+.flex-2{
+    gap: 0px;
+    margin: 50px 0px;
+    padding: 0px 380px;
+}
+.card-1{
+    width: 250px;
+}
+.card-2{
+    width: 250px;
+}
+.card-3{
+    width: 250px;
+}
+.card1-btn{
+    margin-left: 450px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+.card2-btn{
+    margin-left: 140px;
+    background-color: transparent;
+    color: #ffffff;
+    border:1px solid #ffffff ;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+.card3-btn{
+    margin-left: 140px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+.maindiv{
+    background-color: #0f0f0f;
+    margin-top: 100px;
+    height: 1450px;
+}
+.franchise-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-top: 80px;
+    font-family: butler;
+   line-height: 70px;
+}
+
+.para-text{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 15px;
+    font-weight: lighter;
+}
+.span-one{
+   font-family: apercu;
+    font-size: 5rem;
+}
+
+.parent-1{
+    gap: 220px;
+}
+.islamabad{
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-left: 140px;
+    line-height: 45px;
+    font-family: apercu;
+}
+.img-islamabad{
+    margin-right: 20px;
+    width: 550px;
+    margin-top: 50px;
+}
+.span-two{
+    color: orangered;
+    letter-spacing: 8px;
+    font-size: medium;
+}
+.span-three{
+    font-family: butler;
+}
+.span-four{
+    font-size: 3.3rem;
+}
+.islamabad-btn{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-left: 150px;
+    color:#ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.arrow-one{
+    background-color: #ffffff;
+    color: #ed1c24;
+    border-radius: 25px;
+    padding: 3px 5px;
+    margin-left: 5px;
+}
+.img-faislabad{
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.faislabad{
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-left: 20px;
+    line-height: 45px;
+    font-family: apercu;
+}
+.span-five{
+    color: orangered;
+    letter-spacing: 8px;
+    font-size: medium;
+}
+.span-six{
+    font-family: butler;
+    font-size: 4.5rem;
+}
+.span-seven{
+    font-size: 3.3rem;
+}
+.faislabad-btn{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-left: 20px;
+    color:#ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.bahawalpur{
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-left: 140px;
+    line-height: 45px;
+    font-family: apercu;
+}
+.span-eight{
+    color: orangered;
+    letter-spacing: 8px;
+    font-size: medium;
+}
+.span-nine{
+    font-family: butler;
+    font-size: 4.5rem;
+}
+.span-ten{
+    font-size: 3.3rem;
+}
+.img-bahawalpur{
+    margin-left: 170px;
+    width: 550px;
+    margin-top: 80px;
+}
+.bahawalpur-btn{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-left: 150px;
+    color:#ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.maindiv-2{
+    background-color: #000000;
+    margin-top: 140px;
+    
+}
+.express{
+    text-align: center;
+    color: #ffffff;
+}
+.span-11{
+    font-family: butler;
+    font-weight: lighter;
+}
+.parent-4{
+    margin-top: 60px;
+}
+
+.img-emporium{
+    width: 350px;
+}
+.img-gujranwala{
+    width: 360px;
+}
+.img-sarghoda{
+    width: 350px;
+}
+.emporium{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.gujranwala{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.sarghoda{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.span-12{
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+}
+.span-13{
+    font-family: butler;
+}
+.express1-btn{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-left: 110px;
+    color:#ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.parent-5{
+    margin-top: 1350px;
+}
+.img-lahore{
+    width: 350px;
+    height: 255px;
+}
+.img-faisal-town{
+    height: 235px;
+    width: 350px;
+}
+.maindiv-3{
+    background-color: #0f0f0f;
+    height: 780px;
+    margin-top: 80px;
+}
+.span-15{
+    font-family: butler;
+}
+.Gujranwala-village{
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-family: apercu;
+    margin-left: 30px;
+    line-height: 40px;
+}
+.img-village{
+    margin-top: 40px;
+}
+.span-16{
+    letter-spacing: 8px;
+}
+.span-17{
+    font-family: butler;
+}
+.maindiv-4{
+    background-color: #000000;
+    height: 500px;
+    margin-top: 60px;
+}
+.express-franchise{
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-family: apercu;
+    text-align: center;
+    margin-top: 120px;
+    line-height: 65px;
+}
+.three-white-boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 50px;
+}
+.white-box {
+    height: 230px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+.white-box-location{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.white-box-text-1 {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  .white-box-text-2 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .white-box-text-3 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+  .white-box-text-4 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+#div-1{
+   color: #ffffff;
+   font-size: 3rem;
+   margin-top: 100px;
+   text-align: center;
+   font-family: butler;
+}
+.social-food-1{
+    width: 300px;
+
+}
+.parent-6{
+    margin-top: 40px;
+}
+.logo-2{
+    width: 145px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.end-para-1{
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 30px;
+    line-height: 22px;
+}
+.span-19{
+    padding-top: 50px;
+}
+.end-para-2{
+    color: #ffffff;
+    margin-left: 120px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+.end-para-3{
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 150px;
+    line-height: 30px;
+}
+.span-20{
+    font-family: butler;
+    font-weight: 200;
+}
+.end-para-4{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.insta-icon{
+width: 40px;
+margin-top: 30px;
+}
+.fb-logo{
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.app-store-logo{
+    display: block;
+    margin-top: 40px;
+}
+.google-logo{
+    display: block;
+    margin-top: 20px;
+}
+.maindiv-5{
+    background-color: #0f0f0f;
+    height: 650px;
+    margin-top: 80px;
+}
+.village-btn{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}

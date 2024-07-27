@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font family */
+@font-face {
+    font-family: apercu;
+    src: url('../fonts/Apercu\ Light.otf');
+}
+
+html{
+    font-size: 62.5%;
+    font-family: apercu;
+}
+
+/* css variable */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: #ed1c24;
+    --green: #28a745;
+    --gray: #0f0f0f
+}
+/* css variables */
+
+/* utility classes started */
+
+/* flex started */
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+.gap-6{
+    gap: 30px;
+}
+.gap-7{
+    gap: 35px;
+}
+.gap-10{
+    gap: 50px;
+}
+.gap-1{
+    gap: 60px;
+}
+.gap-12{
+    gap: 65px;
+}
+.gap-13{
+    gap: 70px;
+}
+.gap-14{
+    gap: 80px;
+}
+.gap-15{
+    gap: 85px;
+}
+ 
+/* flex ended */
+
+
+
+ /* margin started */
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 10px;
+}
+.m-3{
+    margin: 15px;
+}
+.m-4{
+    margin: 20px;
+}
+.m-5{
+    margin: 25px;
+}
+
+.mx-1{
+    margin: 0px 5px;
+}
+.mx-2{
+    margin: 0px 10px;
+}
+.mx-3{
+    margin: 0px 15px;
+}
+.mx-4{
+    margin: 0px 20px;
+}
+.mx-5{
+    margin: 0px 25px;
+}
+
+/* margin ended */
+
+
+.rounded-sm{
+    border-radius: 20px;
+}
+
+.text-none{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.bg-dark{
+    background-color: var(--black);
+}
+
+.text-white{
+    color: var(--white);
+}
+
+/* utility classes ended */
+.font-one{
+    font-size: 2rem;
+}
+.font-two{
+    font-size: 2.5rem;
+}
+.font-three{
+    font-size: 3rem;
+}
+.font-four{
+    font-size: 3.5rem;
+}
+.font-five{
+    font-size: 4rem;
+}
+.font-six{
+    font-size: 4.5rem;
+}
+.font-seven{
+    font-size: 5rem;
+}
+.font-eight{
+    font-size: 1.5rem;
+}
+.font-nine{
+    font-size: 5.5rem;
+}
+.font-ten{
+    font-size: 6rem;
+}
+.font-eleven{
+    font-size: 7rem;
+}
+.text-orangered{
+    color: #ff4500;
+}
