@@ -1,25 +1,10 @@
-@font-face {
-    font-family: butler;
-    src: url(../fonts/Butler_ExtraBold.otf);
-}
-
-
-@font-face {
-    font-family: apercu;
-    src: url(../fonts/Apercu\ Pro\ Bold.otf);
-}
-@font-face {
-    font-family: kanit thin;
-    src: url(../fonts/Kanit-Thin.ttf);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 body{
     background-color: black;
@@ -72,112 +57,32 @@ body{
 hr{
     margin-top: 20px;
 }
-/* navbar ended  */
+/* navbar ended */
 /* main started */
-.parent-1{
-    text-align: center;
-    margin-top: 50px;
-    
-}
-.div-1{
-   font-family: butler;
-}
-.div-2{
-margin-top: 20px;
-line-height: 19px;
-font-family: apercu;
-word-spacing: 3px;
-}
-.div-3{
-    margin-top: 50px;
-}
-.div-4{
-    line-height: 20px;
-    margin-top: 20px;
-    font-family: apercu;
+#div-img-1{
+    border: 1px solid #ffffff;
+    width: 520px;
+    height: 550px;
+    margin-top: 80px;
 }
 .img-1{
     width: 520px;
+    margin-top: 35px;
 }
-.div-5{
-    margin-left: 120px;
-    word-spacing: 5px;
-}
-
-.parent-2{
+#div-img-2{
+    border: 1px solid #ffffff;
+    width: 520px;
+    height: 550px;
     margin-top: 80px;
-    /* height: 500px; */
-    gap: 130px;
 }
-.span-1{
-    font-family: butler;
-}
-.parent-3{
+.div-1{
     margin-top: 60px;
-}
-.div-7{
-    margin-left: 180px;
-}
-.div-8{
-    margin-left: 20px;
-    word-spacing: 5px;
-}
-.div-9{
     text-align: center;
-    margin-top: 70px;
 }
-.span-2{
-    font-family: butler;
-}
-.div-10{
-    text-align: center;
-    margin-top: 30px;
-}
-.div-11{
-    margin-left: 200px;
-}
-.div-12{
-    word-spacing: 4px;
-}
-.div-13{
-    text-align: center;
+.div-2{
     margin-top: 60px;
-}
-.span-3{
-    font-family: butler;
-}
-.children{
-    background-color: #0f0f0f;
-    width: 340px;
-    border-radius: 10px;
-    height: 450px;
-    margin-top: 40px;
-}
-.img-2{
-    /* margin-left: 25px; */
-    border-radius: 5px;
-    margin:30px 9px;
-    
-}
-.para-1{
     text-align: center;
     line-height: 30px;
-}
-.span-4{
-    font-family: butler;
-    
-}
-.div-15{
-    text-align: center;
-    margin-top: 60px;
-    word-spacing: 8px;
-}
-.div-16{
-    margin-top: 70px;
-    margin-left: 220px;
-}
-.div-17{
-    margin-top: 70px;
 }
 /* main ended */
 /* footer started */
@@ -248,4 +153,4 @@ margin-top: 30px;
     border: 1px solid white;
     cursor: pointer;
 }
-/* footer ended */
+/* footer ended */    

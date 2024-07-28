@@ -21,6 +21,7 @@
 body{
     background-color: black;
 }
+/* navbar started  */
 .logo-1{
     width: 165px;
     margin-top: 10px;
@@ -64,7 +65,8 @@ body{
 .order-btn:hover{
     background-color: lightslategray;
 }
-
+/* navbar ended  */
+/* main started */
 .slider-1{
     width: 100%;
 }
@@ -426,6 +428,9 @@ body{
 .parent-6{
     margin-top: 40px;
 }
+/* main ended */
+
+/* footer started */
 .logo-2{
     width: 145px;
     margin-top: 70px;
@@ -493,3 +498,4 @@ margin-top: 30px;
     border: 1px solid white;
     cursor: pointer;
 }
+/* footer ended */
