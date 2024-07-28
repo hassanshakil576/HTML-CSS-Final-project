@@ -1,0 +1,244 @@
+@font-face {
+    font-family: butler;
+    src: url(../fonts/Butler_ExtraBold.otf);
+}
+
+
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/Apercu\ Pro\ Bold.otf);
+}
+@font-face {
+    font-family: kanit thin;
+    src: url(../fonts/Kanit-Thin.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.logo-1{
+    width: 165px;
+    margin-top: 10px;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    padding-top: 20px;
+    font-family: apercu;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 35px;
+    color: white;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.franchise-btn:hover{
+    background-color: paleturquoise;
+}
+.order-btn{
+    background-color: #ed1c24;
+    color: white;
+    border-radius: 35px;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+.arrow-icon{
+    background-color: white;
+    color: #ed1c24;
+    padding: 4px 8px;
+    border-radius: 50px;
+    margin-left:5px ;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background-color: lightslategray;
+}
+hr{
+    margin-top: 20px;
+}
+.parent-1{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.div-1{
+   font-family: butler;
+}
+.div-2{
+margin-top: 20px;
+line-height: 19px;
+font-family: apercu;
+word-spacing: 3px;
+}
+.div-3{
+    margin-top: 50px;
+}
+.div-4{
+    line-height: 20px;
+    margin-top: 20px;
+    font-family: apercu;
+}
+.img-1{
+    width: 520px;
+}
+.div-5{
+    margin-left: 120px;
+    word-spacing: 5px;
+}
+
+.parent-2{
+    margin-top: 80px;
+    /* height: 500px; */
+    gap: 130px;
+}
+.span-1{
+    font-family: butler;
+}
+.parent-3{
+    margin-top: 60px;
+}
+.div-7{
+    margin-left: 180px;
+}
+.div-8{
+    margin-left: 20px;
+    word-spacing: 5px;
+}
+.div-9{
+    text-align: center;
+    margin-top: 70px;
+}
+.span-2{
+    font-family: butler;
+}
+.div-10{
+    text-align: center;
+    margin-top: 30px;
+}
+.div-11{
+    margin-left: 200px;
+}
+.div-12{
+    word-spacing: 4px;
+}
+.div-13{
+    text-align: center;
+    margin-top: 60px;
+}
+.span-3{
+    font-family: butler;
+}
+.children{
+    background-color: #0f0f0f;
+    width: 340px;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 40px;
+}
+.img-2{
+    /* margin-left: 25px; */
+    border-radius: 5px;
+    margin:30px 9px;
+    
+}
+.para-1{
+    text-align: center;
+    line-height: 30px;
+}
+.span-4{
+    font-family: butler;
+    
+}
+.div-15{
+    text-align: center;
+    margin-top: 60px;
+    word-spacing: 8px;
+}
+.div-16{
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.div-17{
+    margin-top: 70px;
+}
+
+.logo-2{
+    width: 145px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.end-para-1{
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 30px;
+    line-height: 22px;
+}
+.span-19{
+    padding-top: 50px;
+}
+.end-para-2{
+    color: #ffffff;
+    margin-left: 120px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+.end-para-3{
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 150px;
+    line-height: 30px;
+}
+.span-20{
+    font-family: butler;
+    font-weight: 200;
+}
+.end-para-4{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.insta-icon{
+width: 40px;
+margin-top: 30px;
+}
+.fb-logo{
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.app-store-logo{
+    display: block;
+    margin-top: 40px;
+}
+.google-logo{
+    display: block;
+    margin-top: 20px;
+}
+.maindiv-5{
+    background-color: #0f0f0f;
+    height: 650px;
+    margin-top: 80px;
+}
+.village-btn{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
