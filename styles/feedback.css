@@ -1,0 +1,272 @@
+@font-face {
+    font-family: philosipher;
+    src: url(../fonts/Philosopher-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/* navbar started */
+.logo-1{
+    width: 165px;
+    margin-top: 10px;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    padding-top: 20px;
+    font-family: apercu;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 35px;
+    color: white;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.franchise-btn:hover{
+    background-color: paleturquoise;
+}
+.order-btn{
+    background-color: #ed1c24;
+    color: white;
+    border-radius: 35px;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+.arrow-icon{
+    background-color: white;
+    color: #ed1c24;
+    padding: 4px 8px;
+    border-radius: 50px;
+    margin-left:5px ;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background-color: lightslategray;
+}
+hr{
+    margin-top: 20px;
+}
+/* navbar ended */
+/* main started */
+.img-1{
+    width: 100%;
+    opacity: 0.35;
+}
+.position-rel{
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    text-align: center;
+    line-height: 58px;
+}
+.div-1{
+    margin-top: 60px;
+    font-size: 1.7rem;
+    margin-left: 170px;
+    /* display: inline-block; */
+}
+.div-2{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.fa-star{
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+.div-3{
+   margin-top: 40px;
+  
+}
+.input-div{
+    margin-top: 40px;
+}
+#input-text{
+    margin-left: 200px;
+    width: 240px;
+    height: 6.5vh;
+    border-radius: 6px;
+}
+#input-number{
+    margin-left: 20px;
+    width: 240px;
+    height: 6.5vh;
+    border-radius: 6px;
+}
+#input-date-time{
+    margin-top: 15px;
+    margin-left: 201px;
+    width: 503px;
+    height: 6vh;
+    border-radius: 6px;
+}
+
+.option-div{
+    margin-left: 201px;
+    margin-top: 15px;
+}
+select{
+    width: 503px;
+    height: 6vh;
+}
+#input-email{
+    margin-left: 201px;
+    margin-top: 15px;
+    width: 503px;
+    height: 6vh;
+    border-radius: 6px;
+}
+#input-textarea{
+    margin-left: 201px;
+    margin-top: 15px;
+    width: 503px;
+    height: 10vh;
+    border-radius: 6px;
+}
+.para-items{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#input-text2{
+    width: 150px;
+    height: 5vh;
+}
+.radio{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#input-raio{
+    margin-left: 60px;
+}
+.checkbox{
+    margin-top: 35px;
+    margin-left: 200px;
+}
+#submit-btn{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.submit-btn{
+    background-color: #ed1c24;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+.div-4{
+    margin-top: 100px;
+}
+.container-1{
+    left: 700px;
+    margin-left: 90px;
+    position: absolute;
+    top: 1000px;
+}
+.line{
+    width: 2px;
+    height: 1000px;
+    background-color: white;
+    position: absolute;
+    top: 1000px;
+    left: 750px;
+    margin-top: 60px;
+}
+.div-5{
+    margin-top: 40px;
+}
+.div-6{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+iframe{
+    width: 600px;
+    height: 250px;
+}
+.div-7{
+    margin-top: 50px;
+}
+.span-end{
+    line-height: 35px;
+}
+/* main ended */
+/* footer started */
+.logo-2{
+    width: 145px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.end-para-1{
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 30px;
+    line-height: 22px;
+}
+.span-19{
+    padding-top: 50px;
+}
+.end-para-2{
+    color: #ffffff;
+    margin-left: 120px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+.end-para-3{
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 150px;
+    line-height: 30px;
+}
+.span-20{
+    font-family: butler;
+    font-weight: 200;
+}
+.end-para-4{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.insta-icon{
+width: 40px;
+margin-top: 30px;
+}
+.fb-logo{
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.app-store-logo{
+    display: block;
+    margin-top: 40px;
+}
+.google-logo{
+    display: block;
+    margin-top: 20px;
+}
+.maindiv-5{
+    background-color: #0f0f0f;
+    height: 650px;
+    margin-top: 80px;
+}
+.village-btn{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+/* footer ended */

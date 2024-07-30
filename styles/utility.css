@@ -84,7 +84,7 @@ html{
 .gap-10{
     gap: 50px;
 }
-.gap-1{
+.gap-11{
     gap: 60px;
 }
 .gap-12{
@@ -191,6 +191,15 @@ html{
 .font-eleven{
     font-size: 7rem;
 }
+.font-twelve{
+    font-size: 7.5rem;
+}
+.font-thirteen{
+    font-size: 8rem;
+}
+.font-fourteen{
+    font-size: 9rem;
+}
 .text-orangered{
     color: #ff4500;
 }
@@ -202,4 +211,10 @@ html{
 }
 .font-kanit{
     font-family: kanit;
+}
+.font-philosipher{
+    font-family: philosipher;
+}
+.text-center{
+    text-align: center;
 }
